@@ -210,11 +210,29 @@ footer textarea{
         margin: 0 auto;
     } */
     .skills-container, 
-    .resume-container, 
+    .resume-container,
+    nav,
+    nav >ul, 
+    .banner,
     footer,
     .about-items{
         flex-direction: column;
         
+    }
+    nav >ul{
+        gap: 20px;
+    }
+    .btn-primary{
+        margin-bottom: 10px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner{
+        margin: 20px;
+    }
+    .banner-profile-pic{
+        width: 100%;
     }
     footer, .about{
         padding: 20px;
@@ -222,7 +240,8 @@ footer textarea{
     .footer-column{
         width: 100%;
     }
-    footer input[type="text"], footer input[type="email"]{
+    footer input[type="text"], 
+    footer input[type="email"]{
         width: calc(100% - 40px);
     }
 }
